@@ -15,4 +15,6 @@
 #define WINDOW_WIDTH 900
 #define WINDOW_HEIGHT 600
 
+#define NUM_PARTICLES 100000
+
 #endif

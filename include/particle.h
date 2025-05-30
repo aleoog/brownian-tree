@@ -3,8 +3,6 @@
 
 #include "main.h"
 
-#define NUM_PARTICLES 10000
-
 typedef struct Partcle
 {
     float x;

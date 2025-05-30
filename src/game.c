@@ -119,12 +119,12 @@ void draw(Game *game)
 
 void run_game(Game *game)
 {
+    draw(game);
+    
     while (game->is_running)
     {
         events(game);
-
-        draw(game);
-        
-        SDL_Delay(5000);
     }
+        
+        //SDL_Delay(5000);
 }
